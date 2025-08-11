@@ -1,5 +1,5 @@
 import Btn from "./components/Btn";
-import { inc, dec, cls, rnd } from "./store/counterSlice";
+import { inc, dec, cls, rnd } from "./slice/counterSlice";
 import { useDispatch, useSelector } from "react-redux";
 
 function App() {
